@@ -1,0 +1,108 @@
+html * {
+
+    font-family: 'comic sans ms';
+    font-size:15px;
+    color: darkgrey;
+
+}
+
+
+body {
+
+    background-color: rgb(2, 31, 48);
+
+}
+
+#menu {
+
+    background-color: rgb(54, 54, 173) ;
+    margin-bottom: 40px;
+    border-top: 35px solid rgb(20,20,80);
+    border-bottom: 35px solid rgb(20, 20, 80);
+
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, auto) ;
+    text-align: center;
+
+}
+
+#menu a {
+
+    color: whitesmoke;
+    /* text-decoration: solid; */
+    text-decoration: none;
+}
+
+#menu :hover{
+
+    background-color: whitesmoke;
+    color: blue;
+    font-size: 25px;
+}
+
+.principal {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    padding: 100px;
+}
+
+
+.arrumar{
+
+    height: 350px;
+    width: 500px;
+    object-fit: fill;
+}
+
+.manutencao {
+
+    height: 500px;
+    width: 1000px;
+    object-fit: fill;
+}
+
+.rodape {
+    background-color: rgb(54, 54, 173) ;
+    margin-bottom: 30px;
+    border-top: 10px solid rgb(20,20,80);
+    border-bottom: 10px solid rgb(20, 20, 80);
+    display: grid;
+    text-align: center;
+    font-size: 15px;
+}
+
+.rodape a {
+
+    color: whitesmoke;
+    /* text-decoration: solid; */
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* carousel  */
+
+
+.carousel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transition: translatex(0);
+}
+
+img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+    
+}
